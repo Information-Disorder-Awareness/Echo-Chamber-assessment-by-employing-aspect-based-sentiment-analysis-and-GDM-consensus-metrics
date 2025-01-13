@@ -1,0 +1,26 @@
+import logging
+
+
+def log_results(results):
+    logging.info("")
+    logging.info(f"Number of users {results['users']}")
+    logging.info(f"Aspect consensus for C0: {results['community0'][0]}")
+    logging.info(f"Community consensus for C0: {results['community0'][1]}")
+    logging.info("")
+    logging.info("Corrected")
+    logging.info(f"Aspect consensus for C0: {[1-x for x in results['community0'][0]]}")
+    logging.info(f"Community consensus for C0: {1-results['community0'][1]}")
+    logging.info("")
+    logging.info(f"Aspect consensus for C1: {results['community1'][0]}")
+    logging.info(f"Community consensus for C1: {results['community1'][1]}")
+    logging.info("")
+    logging.info("Corrected")
+    logging.info(f"Aspect consensus for C1: {[1-x for x in results['community1'][0]]}")
+    logging.info(f"Community consensus for C1: {1-results['community1'][1]}")
+    logging.info("")
+    logging.info(f"Aspect consensus inter-community: {results['inter_community'][0]}")
+    logging.info(f"Community consensus inter-community: {results['inter_community'][1]}")
+    logging.info("")
+    logging.info("Corrected")
+    logging.info(f"Aspect consensus inter-community: {[1-x for x in results['inter_community'][0]]}")
+    logging.info(f"Community consensus inter-community: {1-results['inter_community'][1]}")

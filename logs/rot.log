@@ -1,0 +1,121 @@
+--------------------
+RUN TIME: 26/04/2023 - 21:44:36
+--------------------
+RUN TIME: 26/04/2023 - 21:45:23
+ROT INFORMATION
+
+Name: Final rot Graph
+Type: Graph
+Number of nodes: 35831
+Number of edges: 44157
+Average degree:   2.4647
+
+Name: Final_MultiGraph_Rot.gml
+Type: MultiGraph
+Number of nodes: 35831
+Number of edges: 80886
+Average degree:   4.5149
+
+------Metis------
+Community 0 length: 17923
+Community 1 length: 17908
+Metis modularity: 0.4511
+Metis coverage: 0.9542
+execution time: 0.1822
+------Metis with sentiment------
+Community 0 length: 17393
+Community 1 length: 18438
+Metis modularity: 0.4361
+Metis coverage: 0.962
+execution time: 0.1769
+------Metis with consensus------
+Community 0 length: 17395
+Community 1 length: 18436
+Metis modularity: 0.4268
+Metis coverage: 0.9623
+execution time: 0.1841
+-----------Metis Difference-----------
+User in same community: 30369
+User not in same community: 5462
+Modularity increase with sentiment: -0.015
+Coverage increase with sentiment: 0.0078
+
+
+-----------Metis Difference-----------
+User in same community: 30357
+User not in same community: 5474
+Modularity increase with consensus: -0.0243
+Coverage increase with consensus: 0.0081
+
+
+**********
+RandomWalk random score for weightComm: 0.9244
+RandomWalk random score for sentimentComm: 0.9268
+RandomWalk random score for consensusComm: 0.9327
+RandomWalk top degree score for weightComm: 0.6723
+RandomWalk top degree score for sentimentComm: 0.7055
+RandomWalk top degree score for consensusComm: 0.7103
+Change side controversy score for weightComm: 0.9571
+Change side controversy score for sentimentComm: 0.9623
+Change side controversy score for consensusComm: 0.9633
+GMCK score for weightComm: 0.1735
+GMCK score for sentimentComm: 0.11
+GMCK score for consensusComm: 0.1271
+
+Number of users 41412
+Aspect consensus for C0: [0.05769593 0.13279169 0.06640737 0.11647032 0.09043452]
+Community consensus for C0: 0.09707330418943752
+
+Aspect consensus for C1: [0.2208918  0.22571911 0.19026326 0.17440249 0.16406315]
+Community consensus for C1: 0.19660892908805647
+
+Aspect consensus inter-community: [0.28374074 0.20472727 0.19806689 0.26709209 0.18396559]
+Community consensus inter-community: 0.23101258570394326
+
+
+Number of users 41412
+Aspect consensus for C0: [0.14522348 0.13911238 0.10815065 0.11676096 0.16137217]
+Community consensus for C0: 0.13550850503003478
+
+Aspect consensus for C1: [0.25705962 0.26291259 0.21816085 0.19766745 0.19110025]
+Community consensus for C1: 0.22732732160734923
+
+Aspect consensus inter-community: [0.26960698 0.21582119 0.19898285 0.23831242 0.19012046]
+Community consensus inter-community: 0.22441010681471088
+
+--------------------
+RUN TIME: 28/04/2023 - 10:18:48
+
+Number of users 35831
+Aspect consensus for C0: [0.24676728]
+Community consensus for C0: 0.24676727565847403
+Corrected
+Aspect consensus for C0: [0.753232724341526]
+Community consensus for C0: 0.753232724341526
+
+Aspect consensus for C1: [0.32297533]
+Community consensus for C1: 0.3229753333642076
+
+Corrected
+Aspect consensus for C1: [0.6770246666357924]
+Community consensus for C1: 0.6770246666357924
+Aspect consensus inter-community: [0.14355532]
+Community consensus inter-community: 0.14355531737265725
+
+
+Number of users 35831
+Aspect consensus for C0: [0.28364337]
+Community consensus for C0: 0.28364337069053386
+Corrected
+Aspect consensus for C0: [0.7163566293094661]
+Community consensus for C0: 0.7163566293094661
+
+Aspect consensus for C1: [0.28582533]
+Community consensus for C1: 0.2858253330644406
+
+Corrected
+Aspect consensus for C1: [0.7141746669355594]
+Community consensus for C1: 0.7141746669355594
+Aspect consensus inter-community: [0.56780963]
+Community consensus inter-community: 0.567809626971968
+
