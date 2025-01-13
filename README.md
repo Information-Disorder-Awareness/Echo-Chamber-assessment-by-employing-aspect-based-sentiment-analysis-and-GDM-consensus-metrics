@@ -12,7 +12,7 @@ dcavaiere at unisa dot it, gfenza at unisa dot it
 
 # Description
 
-This project focuses on detecting and monitoring the evolution of echo chambers in social networks, emphasizing the complementary role of topology-based metrics and the semantics of user viewpoints. It introduces a novel metric leveraging Group Decision-Making (GDM) and Aspect-Based Sentiment Analysis (ABSA) to measure consensus within and across communities. Evaluations on public Twitter datasets demonstrate the effectiveness of this approach compared to state-of-the-art methods for polarization and echo chamber detection, highlighting the limitations of purely topology-based metrics.
+This project focuses on detecting and monitoring the evolution of echo chambers in social networks, emphasizing the complementary role of topology-based metrics and the semantics of user viewpoints. It introduces a novel metric leveraging consensus Group Decision-Making (GDM) that acquires community members’ opinions through Aspect-Based Sentiment Analysis (ABSA) and applies consensus metrics to determine the agreement within a single community and between distinct communities. Evaluations on public Twitter datasets demonstrate the effectiveness of this approach compared to state-of-the-art methods for polarization and echo chamber detection, highlighting the limitations of purely topology-based metrics.
 
 # Acknowledgements
 
