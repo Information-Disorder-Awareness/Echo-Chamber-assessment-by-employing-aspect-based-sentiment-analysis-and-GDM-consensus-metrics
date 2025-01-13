@@ -2,7 +2,7 @@
 
 Replication for the paper:  
 
-Miriam Amendola, Danilo Cavaliere, Carmen De Maio, Giuseppe Fenza, Vincenzo Loia, Towards echo chamber assessment by employing aspect-based sentiment analysis and GDM consensus metrics, Online Social Networks and Media, Volumes 39–40, 2024, 100276, ISSN 2468-6964, https://doi.org/10.1016/j.osnem.2024.100276.
+### Miriam Amendola, Danilo Cavaliere, Carmen De Maio, Giuseppe Fenza, Vincenzo Loia, Towards echo chamber assessment by employing aspect-based sentiment analysis and GDM consensus metrics, Online Social Networks and Media, Volumes 39–40, 2024, 100276, ISSN 2468-6964, https://doi.org/10.1016/j.osnem.2024.100276.
 
 Available at: https://www.sciencedirect.com/science/article/pii/S2468696424000016
 
